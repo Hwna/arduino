@@ -10,12 +10,12 @@
 #define PIN_IR A0     //[3158] IR센서를 아두이노의 A0 핀에 연결
 
 // Framework setting
-#define _DIST_TARGET 250  //[3166]목표로 하는 탁구공 중심 위치까지 거리 185mm로 고정
+#define _DIST_TARGET 250  //[3166]목표로 하는 탁구공 중심 위치까지 거리 250mm로 고정
 #define _DIST_MIN 110     //[3164] 최소 측정 거리 110mm로 고정 
-#define _DIST_MAX 390   // [3401] 측정 거리의 최댓값를 410mm로 설정
+#define _DIST_MAX 390   // [3401] 측정 거리의 최댓값를 390mm로 설정
 
 // Distance sensor
-#define _DIST_ALPHA 0.7  // [3162] ema 필터의 alpha 값을 0.4으로 설정
+#define _DIST_ALPHA 0.7  // [3162] ema 필터의 alpha 값을 0.7으로 설정
 
 // Servo range
 #define _DUTY_MIN 1330    //[3148]  서보의 가동 최소 각도
@@ -25,7 +25,7 @@
 // Servo speed control
 #define _SERVO_ANGLE 3   //[3159] 서보의 각도
 //[3150] 레일플레이트가 사용자가 원하는 가동범위를 움직일때, 이를 움직이게 하는 서보모터의 가동범위
-#define _SERVO_SPEED 60   //[3147]  서보 속도를 30으로 설정
+#define _SERVO_SPEED 60   //[3147]  서보 속도를 60으로 설정
 
 // Event periods
 #define _INTERVAL_DIST 7   // [3153] Distance Sensing을 7(ms) 마다 실행한다.
